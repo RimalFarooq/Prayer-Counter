@@ -1,0 +1,93 @@
+body{
+    background: #edeaff;
+}
+.prayerRing{
+    margin-top: 10vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.PrayerRing1{
+    height:13vmax ;
+    width:10vmax ;
+    border:0.2vmax solid black ;
+    border-top-left-radius:37vmax ;
+    border-top-right-radius:37vmax ;
+    border-bottom-right-radius:30vmax  ;
+    border-bottom-left-radius:30vmax  ;
+    background-color: pink;
+    box-shadow:   0.3vmax 0.4vmax 0.5vmax   rgba(0,0,0,0.7);
+}
+/* part1 */
+.box1 , .box2{
+    margin-left: 1vmax;
+    height:5vmax ;
+    width:8vmax ;
+}
+.box1{
+    margin-top: 2vmax;
+}
+
+.box2{
+    margin-top: 0.2vmax;
+    display: flex;
+    text-align: center;
+    font-weight:bold;
+    padding-left: 1vmax;
+    padding-top: 1.3vmax;
+    gap: 0.4vmax;
+   
+}
+.black-box1 , .black-box2 , .reset-btn{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.1vmax;
+    font-size: 0.9vmax;
+}
+.black-box1{
+    border-top-left-radius: 0.5vmax;
+    border-top-right-radius: 0.5vmax;
+}
+.black-box2{
+    border-bottom-left-radius: 0.5vmax;
+    border-bottom-right-radius: 0.5vmax;
+}
+.gray-box{
+    background-color: gray;
+    border: 0.2vmax solid white;
+    padding: 0.3vmax;
+    font-weight: bold;
+    font-size: 1.5vmax;
+}
+/* part2 */
+.circle1{
+    height:3vmax ;
+    width:3vmax ;
+    border: 0.2vmax solid black;
+    border-radius: 50%;
+    font-size: 2vmax;
+    background-color: rgb(99, 95, 95);
+    color: white;
+}
+.circle2{
+    height:2vmax ;
+    width:2vmax ;
+    border: 0.2vmax solid black;
+    border-radius: 50%;
+    font-size: 1.5vmax;
+    background-color: rgb(99, 95, 95);
+    color: white;
+}
+.reset-btn:hover , .circle1:hover , .circle2:hover{
+    cursor: pointer;
+}
+/* responsiveness */
+.romanesco-regular {
+    font-family: "Romanesco", cursive;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 3vmax;
+  }
